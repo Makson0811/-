@@ -8,21 +8,21 @@
     var num1 = Number(document.getElementById("first0").value);
     var num2 = Number(document.getElementById("second0").value);
     var dod = num1 + num2;
-   document.getElementById("dod").innerHTML = plus;
+   document.getElementById("dod").innerHTML = dod;
         }
 
   function func1(){
       var num12 = Number(document.getElementById("first1").value);
       var num22 = Number(document.getElementById("second1").value);
       var vidn = num12 - num22;
-   document.getElementById("vidn").innerHTML = min;
+   document.getElementById("vidn").innerHTML = vidn;
         }
 
   function func2(){
       var num13 = Number(document.getElementById("first2").value);
       var num23 = Number(document.getElementById("second2").value);
-      var mno = num13 * num23;
-   document.getElementById("mnо").innerHTML = pomn;
+      var pomn = num13 * num23;
+   document.getElementById("pomn").innerHTML = pomn;
         }
   function func3(){
       var num14 = Number(document.getElementById("first3").value);
@@ -47,7 +47,7 @@
 <input id="first1"/> - <input id="second1"/> = <output id="vidn"/>
 <button onclick="func1()">Відповідь</button>
 </p><p>
-<input id="first2"/> * <input id="second2"/> = <output id="mno"/>
+<input id="first2"/> * <input id="second2"/> = <output id="pomn"/>
 <button onclick="func2()">Відповідь</button>
 </p><p>
 <input id="first3"/> / <input id="second3"/> = <output id="dil"/>
